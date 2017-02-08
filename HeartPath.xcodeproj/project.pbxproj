@@ -15,6 +15,7 @@
 		D6FC433B1D63019700F499ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FC43391D63019700F499ED /* LaunchScreen.storyboard */; };
 		D6FC43461D63019800F499ED /* HeartPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC43451D63019800F499ED /* HeartPathTests.m */; };
 		D6FC43511D63019800F499ED /* HeartPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FC43501D63019800F499ED /* HeartPathUITests.m */; };
+		D6FC44B11D66DC8A00F499ED /* Asuna.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6FC44B01D66DC8A00F499ED /* Asuna.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D6FC434C1D63019800F499ED /* HeartPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FC43501D63019800F499ED /* HeartPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartPathUITests.m; sourceTree = "<group>"; };
 		D6FC43521D63019800F499ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FC44B01D66DC8A00F499ED /* Asuna.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asuna.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D6FC43311D63019700F499ED /* ViewController.h */,
 				D6FC43321D63019700F499ED /* ViewController.m */,
 				D6FC43341D63019700F499ED /* Main.storyboard */,
+				D6FC44B01D66DC8A00F499ED /* Asuna.JPG */,
 				D6FC43371D63019700F499ED /* Assets.xcassets */,
 				D6FC43391D63019700F499ED /* LaunchScreen.storyboard */,
 				D6FC433C1D63019700F499ED /* Info.plist */,
@@ -207,6 +210,8 @@
 				TargetAttributes = {
 					D6FC43271D63019700F499ED = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ELNKAU5W5R;
+						ProvisioningStyle = Manual;
 					};
 					D6FC43401D63019800F499ED = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FC44B11D66DC8A00F499ED /* Asuna.JPG in Resources */,
 				D6FC433B1D63019700F499ED /* LaunchScreen.storyboard in Resources */,
 				D6FC43381D63019700F499ED /* Assets.xcassets in Resources */,
 				D6FC43361D63019700F499ED /* Main.storyboard in Resources */,
@@ -413,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ELNKAU5W5R;
 				INFOPLIST_FILE = HeartPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mx007.www.HeartPath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zte.dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d64f8ea4-29e1-4088-9d77-6bd6803147c7";
+				PROVISIONING_PROFILE_SPECIFIER = zteDev;
 			};
 			name = Debug;
 		};
@@ -424,10 +433,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ELNKAU5W5R;
 				INFOPLIST_FILE = HeartPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mx007.www.HeartPath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zte.dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d64f8ea4-29e1-4088-9d77-6bd6803147c7";
+				PROVISIONING_PROFILE_SPECIFIER = zteDev;
 			};
 			name = Release;
 		};
@@ -496,6 +508,7 @@
 				D6FC43571D63019800F499ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6FC43581D63019800F499ED /* Build configuration list for PBXNativeTarget "HeartPathTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				D6FC435A1D63019800F499ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6FC435B1D63019800F499ED /* Build configuration list for PBXNativeTarget "HeartPathUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				D6FC435D1D63019800F499ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
