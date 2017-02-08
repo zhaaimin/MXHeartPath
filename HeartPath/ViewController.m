@@ -91,7 +91,7 @@
     shapeLayer.strokeColor=[UIColor redColor].CGColor;//边框颜色
     [self.view.layer addSublayer:shapeLayer];
     
-    
+    //1122334454555
     //动画
     CABasicAnimation *pathAniamtion = [CABasicAnimation animationWithKeyPath:@"strokeStart"];
     // 时间
